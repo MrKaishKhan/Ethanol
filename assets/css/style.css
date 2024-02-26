@@ -3956,7 +3956,8 @@ textarea.form-control {
     Footer
 --------------------------*/
 .footer {
-  background-color: #161616;
+  background-color: #4aab3d;
+  color: white;
 }
 
 .footer .social-icons a {
@@ -3964,15 +3965,17 @@ textarea.form-control {
 }
 
 .footer .social-icons a i {
-  color: #282828;
+  background-color: orange;
+  color: white
+;
 }
 
 .footer .social-icons a:hover {
-  border-color: #f9f9f9;
+  border-color: orange ;
 }
 
 .footer .social-icons a:hover a {
-  color: #ffffff;
+  color: orange ;
 }
 
 .footer .btn__download {
@@ -3981,18 +3984,19 @@ textarea.form-control {
 }
 
 .footer .btn__location {
-  font-size: 14px;
+  font-size: 30px;
   font-weight: 700;
   color: #ffffff;
+ 
 }
 
 .footer .btn__location:hover {
-  color: #4aab3d;
+  color: orange;
 }
 
 .footer-primary {
-  padding-top: 120px;
-  padding-bottom: 70px;
+  padding-top: 70px;
+  padding-bottom: 50px;
 }
 
 .footer-widget {
@@ -4000,7 +4004,7 @@ textarea.form-control {
 }
 
 .footer-widget-title {
-  color: #ffffff;
+  color: #fff;
   font-size: 16px;
   text-transform: capitalize;
   margin-bottom: 33px;
@@ -4010,7 +4014,7 @@ textarea.form-control {
 .copyright__nav li a {
   display: block;
   position: relative;
-  color: #9b9b9b;
+  color: #ffffff;
   font-size: 14px;
   margin-bottom: 11px;
 }
@@ -7076,6 +7080,7 @@ textarea.form-control {
   font-family: "Rubik", sans-serif;
   font-size: 22px;
   line-height: 1;
+  margin-right: 20px;
 }
 
 .contact__number a:hover {
@@ -7926,6 +7931,7 @@ textarea.form-control {
   }
   .about-layout1 .about__text {
     margin-left: 50px;
+    
   }
 }
 
