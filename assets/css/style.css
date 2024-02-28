@@ -65,6 +65,28 @@ body {
   overflow-x: hidden;
 }
 
+
+/* ==========================WhatsAPP=======================================*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
 ::-moz-selection {
   background-color: #4aab3d;
   color: #ffffff;
@@ -2918,6 +2940,7 @@ textarea.form-control {
           align-items: center;
   padding: 5px 0;
   border-bottom: 1px solid #eaeaea;
+  background-color:rgb(23, 18, 9);
 }
 
 .header-topbar .contact__list li {
@@ -2928,12 +2951,12 @@ textarea.form-control {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 13px;
+  font-size: 15px;
   margin-right: 20px;
 }
 
 .header-topbar .contact__list li a:not(.btn) {
-  color: #9b9b9b;
+  color: white;
 }
 
 .header-topbar .contact__list li a:not(.btn):hover {
@@ -3026,25 +3049,29 @@ textarea.form-control {
 .header-topbar-dark .social-icons li a i:hover {
   color: #ffffff;
   background-color: #4aab3d;
+  
 }
 
 .header-layout1 {
-  -webkit-box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.1);
+  -webkit-box-shadow: 0px 5px 83px 0px rgba(214, 103, 47, 0.1);
           box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.1);
 }
 
 .header-layout1 .social-icons li a {
   border: 0;
-  width: 20px;
-  height: 20px;
+  width: 60px;
+  height: 60px;
+  size: 10px;
+
 }
 
 .header-layout1 .social-icons li a i {
-  background-color: #1b1a1a;
+  background-color:green;
+  font-size: 30px;
 }
 
 .header-layout1 .social-icons li a i:hover {
-  background-color: #4aab3d;
+  background-color: orange;
 }
 
 /* cart-minipopup */
@@ -4019,9 +4046,26 @@ textarea.form-control {
   margin-bottom: 11px;
 }
 
+.colordev{
+  background-color: #4aab3d;
+  border-radius:30px;
+  margin: 10px 30px 10px 30px;
+}
+
+.row{
+ 
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.footer-widget-nav li a .btn:hover {
+  color: white;
+  background-color: orange;
+}
+
 .footer-widget-nav li a:hover,
 .copyright__nav li a:hover {
-  color: #ffffff;
+  color: orange;
 }
 
 .copyright__nav li a {
